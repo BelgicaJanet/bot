@@ -22,6 +22,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npx cypress run --record --key 77e90b5a-e570-4245-a812-eb689556f906
+    - run: npx cypress run --record --key 2d73db09-4c46-4985-baae-bd4295ab296a
       env:
         CI: true
