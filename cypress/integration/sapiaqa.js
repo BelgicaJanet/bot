@@ -1,7 +1,7 @@
 describe("sapia app", () => {
     it("visit app", () => {
         cy.visit('/');
-        cy.get('.form-control').type("42923189{enter}");
+        cy.get('.form-control').type("73993583{enter}");
         cy.get('#defaultUnchecked6').check({force: true});
         cy.get('.btn').click();
         cy.get('.form-group > :nth-child(3)').click();
