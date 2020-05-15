@@ -7,6 +7,7 @@ describe("sapia app", () => {
         cy.get('.form-group > :nth-child(3)').click();
         cy.get('#defaultUnchecked4').check({force: true});
         cy.get('.btn').click();
+        cy.get('.flex-center > :nth-child(2)').click();
         /*cy.get('#defaultUnchecked10').check({force: true});
         cy.get('.btn').click();
         cy.get('.flex-center > :nth-child(2)').click();
